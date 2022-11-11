@@ -10,7 +10,8 @@ ul,li{
 }
 
 .container{
-    max-width: 1200px; margin: 0 auto;
+    max-width: 1200px;
+     margin: 0 auto;
     padding: 0 10px;
 }
 body {
@@ -116,27 +117,4 @@ footer a {
 .logo{
     display: block;
     width: 170px;
-}
-
-@media screen and (max-width: 1220px) {
-    
-    .row>*{
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .row>*{
-        width: 100%;
-    }
-    footer p{
-        text-align: center;
-    }
-    header ul li {
-        display: none;
-    }
-    header ul li.bars {
-        display: block;
-    }
-
 }
